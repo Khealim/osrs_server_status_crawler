@@ -61,10 +61,7 @@ for elem in tr_elements:
 print(table_printer(data))
 
 url = "https://discord.com/api/v9/channels/1053737293011234888/messages"
-url_san = "https://discord.com/api/v9/channels/804408572888612904/messages"
-url_teaks = "https://discord.com/api/v9/channels/1215678192304529418/messages"
-url_irn_pacifist = "https://discord.com/api/v9/channels/968217958067363850/messages"
-url_10hp_general = "https://discord.com/api/v9/channels/367794622690361344/messages"
+
 payload = {
     "content" : table_printer(data)
 }
